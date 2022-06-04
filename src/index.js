@@ -12,7 +12,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 mongoose.connect("mongodb+srv://cluster0.6evf0.mongodb.net/?retryWrites=true&w=majority",
 {
-    dBname: 'My_database',
+    dBname: 'Book_Data',
     user: 'Avijit07',
     pass: 'Avijit@1998',
     useNewUrlParser: true
