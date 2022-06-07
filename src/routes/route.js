@@ -24,10 +24,11 @@ router.get('/candidates', function(req, res){
     let state = req.query.state
     let district = req.query.district
     console.log('State is '+state)
-    console.log('Gender is '+gender)
+    
     console.log('District is '+district)
     let candidates = ['Akash','Suman']
-    res.send(candidates)
+    // res.send(candidates)
+    res.send('Gender is '+gender)
 })
 
 router.get('/candidates/:canidatesName', function(req, res){
