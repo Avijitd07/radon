@@ -8,7 +8,7 @@ const bookSchema = new mongoose.Schema( {
        
     }, 
     price: Number,
-    ratings: String
+    ratings: Number
 }, { timestamps: true });
 
 

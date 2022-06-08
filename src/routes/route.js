@@ -14,4 +14,10 @@ router.get("/bookPriceUpdate", Controller.bookPriceUpdate )
 
 router.get("/bookPrice", Controller.bookPrice )
 
+router.get("/booksbyauthorid/:authorid", Controller.booksbyauthorid )
+
+router.get("/authorAge", Controller.authorAge) 
+
+
+
 module.exports = router;
